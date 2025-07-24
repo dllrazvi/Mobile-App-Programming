@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+    android:launchMode="singleTask"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/LightOrange" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="413dp"
+            android:layout_height="76dp">
+
+            <TextView
+                android:id="@+id/updateNoteText"
+                android:layout_width="221dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="257dp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/font2bold"
+                android:paddingTop="50dp"
+                android:text="@string/updateNote"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/dateInputUpdate"
+                android:layout_width="145dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="12dp"
+                android:autofillHints=""
+                android:background="@color/LighterOrange"
+                android:ems="10"
+                android:fontFamily="@font/font2bold"
+                android:hint="@string/createDate"
+                android:inputType="date"
+                android:textColorHint="#000000"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="29dp"
+                android:layout_marginEnd="176dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/font2bold"
+                android:text="Date"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <EditText
+            android:id="@+id/emotionInputUpdate"
+            android:layout_width="371dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="472dp"
+            android:autofillHints=""
+            android:background="@color/LighterOrange"
+            android:ems="10"
+            android:fontFamily="@font/font2bold"
+            android:hint="@string/createEmotion"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/titleInputUpdate"
+            android:layout_width="371dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="291dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="391dp"
+            android:autofillHints=""
+            android:background="@color/LighterOrange"
+            android:ems="10"
+            android:fontFamily="@font/font2bold"
+            android:hint="@string/createTitle"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/motivationalInputUpdate"
+            android:layout_width="372dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="116dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="566dp"
+            android:autofillHints=""
+            android:background="@color/LighterOrange"
+            android:ems="10"
+            android:fontFamily="@font/font2bold"
+            android:hint="@string/createMotivationalMessage"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/textInputUpdate"
+            android:layout_width="369dp"
+            android:layout_height="271dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="368dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="92dp"
+            android:autofillHints=""
+            android:background="@color/LighterOrange"
+            android:ems="10"
+            android:fontFamily="@font/font2bold"
+            android:gravity="top"
+            android:hint="@string/createText"
+            android:inputType="textMultiLine"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/cancelButtonUpdate"
+            android:layout_width="116dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="647dp"
+            android:layout_marginEnd="250dp"
+            android:layout_marginBottom="36dp"
+            android:background="@color/LighterOrange"
+            android:fontFamily="@font/font2bold"
+            android:text="@string/cancelOption"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/saveButtonUpdate"
+            android:layout_width="116dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="244dp"
+            android:layout_marginTop="647dp"
+            android:layout_marginEnd="51dp"
+            android:layout_marginBottom="36dp"
+            android:background="@color/LighterOrange"
+            android:fontFamily="@font/font2bold"
+            android:text="@string/saveOption"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font2bold"
+            android:text="Notes"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.056"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.487" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font2bold"
+            android:text="Title"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.055"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.363" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font2bold"
+            android:text="Emotion"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.056"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.241" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="338dp"
+            android:layout_height="24dp"
+            android:fontFamily="@font/font2bold"
+            android:text="Motivational message"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.273"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.101" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
